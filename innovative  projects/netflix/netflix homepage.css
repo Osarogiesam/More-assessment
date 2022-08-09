@@ -286,7 +286,7 @@ overflow-x: scroll;
     padding-bottom: 120px;
     
 }
-details {
+summary {
     width: 90%;
     height: 25px;
 }
