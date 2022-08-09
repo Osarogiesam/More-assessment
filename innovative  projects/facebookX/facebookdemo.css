@@ -1,0 +1,147 @@
+html {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    width: 100%;
+}
+body {
+    margin: 20vh 0px 0px 0px;
+    padding: 0px 15%;
+    background-color: rgb(241, 241, 241);
+    font-family:  sans-serif;
+
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+body  div img {
+    margin-left: -37px;
+    margin-bottom: -30px;
+}
+
+body div p {
+    font-size: 25px;
+}
+
+form {
+    text-align: center;
+    background-color: white;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 30px 0px;
+    padding: 0px 15px;
+    width: 520px;
+    margin-left: 50px;
+    border-radius: 5px;
+}
+
+form input {
+    width: 100%;
+    margin-top: 15px;
+    padding: 15px;
+    font-size: 17px;
+    border: 1px solid ;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
+}
+
+form #login {
+    background-color: rgb(36, 131, 219);
+    border: 0px;
+    outline: none;
+    color: white;
+    width: 100%;
+    width: 100%;
+    margin-top: 15px;
+    padding: 15px;
+    font-size: 20px;
+    border-radius: 5px;
+}
+
+form a {
+    display: block;
+    color: rgb(36, 131, 219);
+    text-decoration: none;
+    padding: 20px;
+    font-size: 14px;
+    border-bottom:  1px solid rgba(0, 0, 0, 0.2);
+}
+
+form #create {
+    background-color: rgb(45, 189, 8);
+    border: 0px;
+    outline: none;
+    color: white;
+    /* width: 60%; */
+    margin-top: 10px;
+    margin-bottom: 30px;
+    padding: 15px;
+    font-size: 16px;
+    border-radius: 5px;
+}
+
+small {
+    display: flex;
+    justify-content: right;
+    font-size: 16px;
+    margin-top: 10px;
+    margin-right: 20px;
+}
+
+small a {
+    margin-right: 5px;
+    color: black;
+    text-decoration: none;
+}
+.content1 {
+    margin-bottom: 30vh;
+    
+}
+footer {
+    display: flex;
+    flex-direction: column;
+    padding: 0.5% 20%;
+    background-color: rgb(255, 255, 255);
+    margin: 0px -21%;
+    font-size: 12px;
+}
+
+footer a {
+    text-decoration: none;
+    color: rgb(138, 141, 145);
+} 
+.bottom {
+    padding-bottom: 15px;
+    border-bottom:  1px solid rgba(0, 0, 0, 0.15);
+}   
+footer p {
+    word-spacing: 10px;
+    color: rgb(109, 110, 112);
+}
+#addlang {
+    border: 1px solid rgba(173, 169, 169, 0.473);
+    box-shadow: rgba(100, 100, 111, 0.171) 0px 7px 30px 0px;
+    font-size: 15px;
+    padding: 2px 8px;
+    font-weight: bold;
+}
+
+@media screen and (max-width:960px) {
+    .container {
+        display: block;
+    }
+
+    form {
+        margin-left: 0px;
+        width: 100%;
+    }
+
+    small {
+        justify-content: center;
+        font-size: 16px;
+        margin-top: 10px;
+        margin-right: 0pxpx;
+    }
+}

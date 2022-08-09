@@ -1,0 +1,141 @@
+html {
+    box-sizing: border-box;
+}
+body {
+    color: white;
+    margin: 0%;
+    padding: 0%;
+    background: url(images/background.jpg);
+    background-repeat: no-repeat;
+    font-size: 16px;
+    font-family: sans-serif;
+    font-size: 14px;
+    
+    position: relative;
+}
+.bgcolor {
+    background-color: rgba(0, 0, 0, 0.5);
+    position: absolute;
+    width: 100%;
+}
+.logo {
+    height: 50px;
+    width: 167px;
+    margin: 2% 3%;
+}
+.form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+form {
+    background-color: rgba(0, 0, 0, 0.85);
+    padding: 30px 68px 125px;
+    display: flex;
+    flex-direction: column;
+    width: 350px;
+    border: 0px;
+    border-radius: 4px; 
+    color: rgb(140, 140, 140); 
+    margin-bottom: 80px;
+}
+.inform {
+    
+    background: rgb(51, 51, 51);
+    margin: 20px 0px;
+    padding: 15px;
+    line-height: 50px;
+    height: 50px;
+    border: 0px;
+    border-radius: 4px;
+    font-size: 19px;
+    color: rgb(140, 140, 140); 
+}
+button {
+    padding: 15px; 
+    background: rgb(229, 9, 20);
+    text-decoration: none;
+    border: 0px;
+    border-radius: 4px;
+    margin: 20px 0px 12px;
+    color: white;
+    font-size: 16pxs;
+    font-weight: bold;
+    cursor: pointer;
+}
+.help {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 60px;
+    
+}
+.help a {
+    color: rgb(140, 140, 140);
+}
+a {
+    text-decoration: none;
+    color: whitesmoke;
+}
+#reminder {
+    background-color: whitesmoke;
+    color: black;
+}
+footer {
+    background-color: rgba(0, 0, 0, 0.85);
+    display: flex;
+    flex-direction: column; 
+    flex-wrap: wrap;    
+    padding: 0px 50px 0px;
+}
+footer a  {
+    color: rgb(140, 140, 140);
+}
+ul {
+    list-style-type: none;
+    padding: 0%;
+    margin: 0% 0% 60px;
+    display: flex;
+    
+}
+li {  
+    margin: 20px 60px;
+}
+footer p a {
+    margin: 30px 60px 15px;
+}
+@media screen and (max-width: 740px) {
+ body {
+     background: black;
+     font-size: 13px;
+ }   
+ form {
+     width: 100%;
+     margin: 10px;
+     padding: 15px;
+ }
+ .inform {
+     font-size: 15px;
+ }
+ footer p a {
+     font-size: 16px;
+     margin: 10px 10px 0px;
+ }
+ li {
+     margin: 12px;
+
+ }
+ footer {
+     padding: 10px 20px;
+ }
+ .form {
+     margin: 0px 8px 0px;
+     padding-bottom: 25px;
+     border-bottom: 1px solid whitesmoke;
+ }
+ ul {
+     margin: 0px 0px 40px;
+ }
+ h1 {
+     font-size: 30px;
+ }
+}
