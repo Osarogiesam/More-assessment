@@ -38,11 +38,13 @@ nav {
 .remote {
     font-size: 5rem;
     line-height: 4.5rem;
-    font-weight: 500;
+    font-weight: 600;
     color: black;
+    
 }
 .team {
     font-size: 18px;
     color: #696969;
     font-family: Epilogue,sans-serif;
+    margin-top: 5%;
 }
