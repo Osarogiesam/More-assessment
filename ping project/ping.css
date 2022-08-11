@@ -1,0 +1,24 @@
+.img {
+    width: 70%;
+    height: 80%;
+    margin-left: 14%;
+}
+.form {
+    margin-top: 0.2%;
+    margin-left: 14%;
+}
+.logo {
+    margin-top: 6%;
+}
+h1 {
+    font-size: calc(2rem + 1.5vw) !important;
+   
+
+}
+
+h1 span { 
+    color: #6c757d;
+}
+.button {
+    padding: 18px 50px ;
+}
